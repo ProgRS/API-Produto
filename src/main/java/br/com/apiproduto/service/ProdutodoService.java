@@ -4,7 +4,7 @@ import br.com.apiproduto.entity.Produto;
 
 import java.util.List;
 
-public interface ProtudoService {
+public interface ProdutodoService {
     List<Produto> buscarTodos();
     Produto salvar(Produto produto);
 

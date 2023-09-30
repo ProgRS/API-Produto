@@ -3,13 +3,13 @@ package br.com.apiproduto.service.impl;
 import br.com.apiproduto.entity.Produto;
 
 import br.com.apiproduto.repository.ProdutoRepository;
-import br.com.apiproduto.service.ProtudoService;
+import br.com.apiproduto.service.ProdutodoService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ProdutoServiceImpl implements ProtudoService{
+public class ProdutoServiceImpl implements ProdutodoService {
 
     private final ProdutoRepository produtoRepository;
 
